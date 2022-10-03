@@ -1,0 +1,78 @@
+.header{
+    background-color: #E3E7FF;
+    font-family: serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 15px;
+    white-space: normal;
+}
+.main{
+    background-color: #E3E7FF;
+    font-family: serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 15px;
+    white-space: normal;
+}
+
+.footer{
+    background-color: #E3E7FF;
+    font-family: serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 15px;
+    white-space: normal;
+}
+.header__title{
+    font-size: 1.25em;
+    font-family:"Droid Serif", serif;
+    font-weight: 700;
+}
+.main__image{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    width: 300px;
+}
+
+.main__quote{
+    filter: drop-shadow(1px 1px 1px grey)
+}
+.main__ascii-image{
+    color: #717480;
+}
+
+.main__header{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.main__header_small{
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+
+.main__initial{
+    font-weight: bold;
+}
+.main__maloletki{
+    font-style: oblique;
+}
+
+.footer__header{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.footer__contact{
+    font-style: oblique;
+}
+
+.main__cross-out{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
