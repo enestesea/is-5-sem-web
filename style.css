@@ -1,15 +1,6 @@
-.header{
+.page{
     background-color: #E3E7FF;
-    font-family: serif;
-    font-weight: 500;
-    text-align: left;
-    line-height: 1.25em;
-    padding: 15px;
-    white-space: normal;
-}
-.main{
-    background-color: #E3E7FF;
-    font-family: serif;
+    font-family: Calibri, serif;
     font-weight: 500;
     text-align: left;
     line-height: 1.25em;
@@ -17,62 +8,158 @@
     white-space: normal;
 }
 
-.footer{
-    background-color: #E3E7FF;
-    font-family: serif;
-    font-weight: 500;
-    text-align: left;
-    line-height: 1.25em;
-    padding: 15px;
-    white-space: normal;
-}
-.header__title{
-    font-size: 1.25em;
+.header-title{
+    font-size: 1.65em;
     font-family:"Droid Serif", serif;
     font-weight: 700;
+    line-height: 1.25em;
 }
-.main__image{
+.main-image{
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
     width: 300px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.main__quote{
+.main-social-network{
+
+}
+
+.main-social-network__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1em;
+    font-family: "Book Antiqua", serif;
+}
+
+.main-social-network__list{
+
+}
+
+.main-my-life{
+
+}
+
+.main-my-life__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua", serif;
+}
+
+.main-my-life__first-story{
+
+}
+
+.main-my-life__second-story{
+
+}
+
+.main-my-life__initial{
+    font-weight: bold;
+}
+
+.main-my-life__name{
+    font-style: oblique;
+}
+
+.main-quote{
+    margin-top: 1.25em;
+}
+
+.main-quote__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: "Book Antiqua", serif;
+}
+
+.main-quote__quote{
     filter: drop-shadow(1px 1px 1px grey)
 }
-.main__ascii-image{
-    color: #717480;
-}
 
-.main__header{
-    font-size: 1.25em;
-    font-weight: bold;
-    line-height: 1.5em;
-}
-.main__header_small{
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1.5em;
-}
-
-
-.main__initial{
-    font-weight: bold;
-}
-.main__maloletki{
+.main-quote__name{
     font-style: oblique;
 }
 
-.footer__header{
+.main-aside-image{
+    margin-top: 1em;
+}
+
+.main-aside-image__title{
     font-size: 1.25em;
     font-weight: bold;
-    line-height: 1.5em;
+    line-height: 2em;
+    font-family: "Book Antiqua", serif;
 }
 
-.footer__contact{
-    font-style: oblique;
+.main-goals{
+    margin-top: 1em;
 }
 
-.main__cross-out{
+.main-goals__title{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Book Antiqua", serif;
+}
+
+.main-goals__list{
+    line-height: 1.25em;
+}
+
+.main-goals__cross-out{
     text-decoration: line-through;
     text-decoration-color: black;
 }
+
+.main-algorithm{
+    margin-top: 1em;
+}
+
+.main-algorithm__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: "Book Antiqua", serif;
+}
+
+.title_small{
+    font-size: 1.1em;
+}
+
+.main-algorithm__algorithm{
+    font-size: 1.25em;
+}
+
+.main-ascii{
+
+}
+
+.main-ascii__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: "Book Antiqua", serif;
+}
+
+.main-ascii__image{
+
+}
+
+.footer-contacts{
+
+}
+
+.footer-contacts__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: "Book Antiqua", serif;
+}
+
+.footer-contacts__list{
+    font-size: 1.1em;
+}
+
+.footer-contacts__list-header{
+    font-style: oblique;
+    font-weight: 400;
+}
+
