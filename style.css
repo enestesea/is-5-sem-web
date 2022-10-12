@@ -6,10 +6,12 @@
     line-height: 1.25em;
     padding: 15px;
     white-space: normal;
+    letter-spacing: 0.01em;
+    word-spacing: 2px;
 }
 
 .header-title{
-    font-size: 1.65em;
+    font-size: 25px;
     font-family:"Droid Serif", serif;
     font-weight: 700;
     line-height: 1.25em;
@@ -17,16 +19,15 @@
 .main-image{
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
     width: 300px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .main-social-network{
-
 }
 
 .main-social-network__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1em;
     font-family: "Book Antiqua", serif;
@@ -41,18 +42,18 @@
 }
 
 .main-my-life__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.5em;
     font-family: "Book Antiqua", serif;
 }
 
 .main-my-life__first-story{
-
+    text-indent: 1em;
 }
 
 .main-my-life__second-story{
-
+    text-indent: 1em;
 }
 
 .main-my-life__initial{
@@ -61,14 +62,16 @@
 
 .main-my-life__name{
     font-style: oblique;
+    text-transform: uppercase;
 }
 
 .main-quote{
-    margin-top: 1.25em;
+    margin-top: 20px;
+    margin-left: auto;
 }
 
 .main-quote__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.5em;
     font-family: "Book Antiqua", serif;
@@ -83,22 +86,22 @@
 }
 
 .main-aside-image{
-    margin-top: 1em;
+    margin-top: 16px;
 }
 
 .main-aside-image__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     line-height: 2em;
     font-family: "Book Antiqua", serif;
 }
 
 .main-goals{
-    margin-top: 1em;
+    margin-top: 16px;
 }
 
 .main-goals__title{
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
@@ -113,21 +116,21 @@
 }
 
 .main-algorithm{
-    margin-top: 1em;
+    margin-top: 16px;
 }
 
 .main-algorithm__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
 
 .title_small{
-    font-size: 1.1em;
+    font-size: 17px;
 }
 
 .main-algorithm__algorithm{
-    font-size: 1.25em;
+    font-size: 15px;
 }
 
 .main-ascii{
@@ -135,7 +138,7 @@
 }
 
 .main-ascii__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
@@ -149,13 +152,13 @@
 }
 
 .footer-contacts__title{
-    font-size: 1.25em;
+    font-size: 20px;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
 
 .footer-contacts__list{
-    font-size: 1.1em;
+    font-size: 17px;
 }
 
 .footer-contacts__list-header{
