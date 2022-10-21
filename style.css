@@ -1,35 +1,57 @@
 .page{
-    background-color: #E3E7FF;
+    display: flex;
+    flex-direction: column;
+    background: #000 url(images/twice.jpg) fixed;
     font-family: Calibri, serif;
     font-weight: 500;
     text-align: left;
     line-height: 1.25em;
-    padding: 15px;
+    padding: 1%;
     white-space: normal;
-    letter-spacing: 0.01em;
-    word-spacing: 2px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    display:flex;
 }
 
 .header-title{
-    font-size: 25px;
+    font-size: 1.65em;
     font-family:"Droid Serif", serif;
     font-weight: 700;
     line-height: 1.25em;
+    margin-bottom: 3%;
 }
-.main-image{
+.main-image1{
+    order:1;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
-    width: 300px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    width: 25%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 10%;
 }
 
 .main-social-network{
+    order: 3;
+    margin-right: 10%;
+    margin-left: 7%;
+    margin-top: 10%;
 }
 
 .main-social-network__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    line-height: 1em;
+    line-height: 16px;
     font-family: "Book Antiqua", serif;
 }
 
@@ -38,22 +60,29 @@
 }
 
 .main-my-life{
-
+    order: 2;
+    margin-right: 50px;
+    margin-top: 100px;
+    background: transparent\9;
+    background: rgb(255, 255, 255, 0.6);
+    padding-bottom: 0;
+    height: 150px;
 }
 
 .main-my-life__title{
     font-size: 20px;
     font-weight: bold;
-    line-height: 1.5em;
+    line-height: 24px;
     font-family: "Book Antiqua", serif;
+
 }
 
 .main-my-life__first-story{
-    text-indent: 1em;
+
 }
 
 .main-my-life__second-story{
-    text-indent: 1em;
+    padding-bottom: 0;
 }
 
 .main-my-life__initial{
@@ -62,16 +91,24 @@
 
 .main-my-life__name{
     font-style: oblique;
-    text-transform: uppercase;
+}
+
+.main-image2{
+    order:4;
+    width: 25%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    margin-right: 19%;
+    margin-left: 0;
 }
 
 .main-quote{
     margin-top: 20px;
-    margin-left: auto;
+    order: 6;
 }
 
 .main-quote__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     line-height: 1.5em;
     font-family: "Book Antiqua", serif;
@@ -85,23 +122,88 @@
     font-style: oblique;
 }
 
+.main-image3{
+    order:5;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    width: 25%;
+    height: auto;
+    margin-left: 50px;
+}
+
 .main-aside-image{
-    margin-top: 16px;
+    margin-top: 1em;
+    order: 7;
 }
 
 .main-aside-image__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     line-height: 2em;
     font-family: "Book Antiqua", serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.main-table-waifu{
+    order: 6;
+    display: grid;
+    grid-template-columns: minmax(100px, 400px) minmax(150px, 400px) minmax(150px, 400px) minmax(100px, 400px);
+    grid-template-rows: 50px 50px 50px 50px;
+    max-width: 1200px;
+    min-width: 400px;
+}
+
+thead,
+tbody,
+tr {
+    display: contents;
+}
+
+th,
+td {
+    padding: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: #6c7ae0;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.1rem;
+    color: white;
+}
+
+th:last-child {
+    border: 0;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #808080;
+}
+td:nth-child(4n+1){
+    font-size: 20px;
+}
+
+tr:nth-child(even) td {
+    background: #f8f6ff;
+}
+
+
 .main-goals{
-    margin-top: 16px;
+    order: 7;
+    margin-top: 1em;
 }
 
 .main-goals__title{
-    font-size: 18px;
+    font-size: 1.2em;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
@@ -116,29 +218,30 @@
 }
 
 .main-algorithm{
+    order: 8;
     margin-top: 16px;
 }
 
 .main-algorithm__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
 
 .title_small{
-    font-size: 17px;
+    font-size: 1.1em;
 }
 
 .main-algorithm__algorithm{
-    font-size: 15px;
+    font-size: 1.25em;
 }
 
 .main-ascii{
-
+    order: 9;
 }
 
 .main-ascii__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
@@ -152,17 +255,16 @@
 }
 
 .footer-contacts__title{
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
     font-family: "Book Antiqua", serif;
 }
 
 .footer-contacts__list{
-    font-size: 17px;
+    font-size: 1.1em;
 }
 
 .footer-contacts__list-header{
     font-style: oblique;
     font-weight: 400;
 }
-
