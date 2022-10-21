@@ -11,8 +11,8 @@
 }
 
 .header-title{
-    font-size: 25px;
-    font-family:"Droid Serif", serif;
+    font-size: 30px;
+    font-family: Jost, serif;
     font-weight: 700;
     line-height: 1.25em;
 }
@@ -30,7 +30,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 1em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-social-network__list{
@@ -45,7 +45,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-my-life__first-story{
@@ -74,7 +74,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-quote__quote{
@@ -93,7 +93,7 @@
     font-size: 20px;
     font-weight: bold;
     line-height: 2em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-goals{
@@ -103,7 +103,7 @@
 .main-goals__title{
     font-size: 18px;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-goals__list{
@@ -122,7 +122,7 @@
 .main-algorithm__title{
     font-size: 20px;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .title_small{
@@ -140,7 +140,7 @@
 .main-ascii__title{
     font-size: 20px;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-ascii__image{
@@ -154,7 +154,7 @@
 .footer-contacts__title{
     font-size: 20px;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .footer-contacts__list{
