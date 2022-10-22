@@ -23,6 +23,8 @@ main{
 
 footer{
     display:flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
 
 .header-title{
@@ -43,10 +45,10 @@ footer{
 
 .main-social-network{
     order: 3;
-    margin-right: 10%;
-    margin-left: 7%;
+    margin-right: 12%;
+    margin-left: 5%;
     margin-top: 10%;
-    background: rgb(255, 255, 255, 0.6);
+    background: rgb(220, 208, 210, 0.6);
     height: 1%;
 }
 
@@ -63,10 +65,10 @@ footer{
 
 .main-my-life{
     order: 2;
-    margin-right: 50px;
-    margin-top: 100px;
-    background: rgb(255, 255, 255, 0.6);
-    height: 150px;
+    margin-right: 4%;
+    margin-top: 7%;
+    background: rgb(220, 208, 210, 0.6);
+    height: 10%;
 }
 
 .main-my-life__title{
@@ -97,15 +99,17 @@ footer{
     width: 25%;
     height: auto;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
-    margin-right: 19%;
-    margin-left: 0;
+    margin-right: 15%;
+    margin-left: 10%;
 }
 
 .main-quote{
-    margin-top: 20px;
     order: 6;
-    background: rgb(255, 255, 255, 0.6);
+    background: rgb(220, 208, 210, 0.6);
     height: 1%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 
 .main-quote__title{
@@ -128,25 +132,8 @@ footer{
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
     width: 25%;
     height: auto;
-    margin-left: 50px;
-}
-
-.main-aside-image{
-    margin-top: 1em;
-    order: 7;
-    background: rgb(255, 255, 255, 0.6);
-    height: 1%;
-}
-
-.main-aside-image__title{
-    font-size: 1.25em;
-    font-weight: bold;
-    line-height: 2em;
-    font-family: Jura, serif;
-}
-
-* {
-    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 10%;
 }
 
 .main-table-waifu{
@@ -156,6 +143,7 @@ footer{
     grid-template-rows: 50px 50px 50px 50px;
     max-width: 1200px;
     min-width: 400px;
+    margin-top: 5%;
 }
 
 thead,
@@ -175,11 +163,11 @@ td {
 th {
     position: sticky;
     top: 0;
-    background: #6c7ae0;
+    background: rgb(204, 184, 185);
     text-align: left;
-    font-weight: normal;
-    font-size: 1.1rem;
-    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #808080;
 }
 
 th:last-child {
@@ -189,22 +177,64 @@ th:last-child {
 td {
     padding-top: 10px;
     padding-bottom: 10px;
-    color: #808080;
+    color: grey;
+    background: rgb(223,211,213);
 }
 td:nth-child(4n+1){
-    font-size: 20px;
+    font-size: 1.1rem;
 }
 
 tr:nth-child(even) td {
     background: #f8f6ff;
 }
 
+.main-aside-image{
+    order: 7;
+    background: rgb(220, 208, 210, 0.6);
+    height: 1%;
+    margin-top: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.main-aside-image__title{
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: Jura, serif;
+}
+
+
+.main-algorithm{
+    order: 8;
+    background: rgb(220, 208, 210, 0.6);
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.main-algorithm__title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-family: Jura, serif;
+}
+
+.title_small{
+    font-size: 1.4rem;
+    margin-top: 1%;
+}
+
+.main-algorithm__algorithm{
+    font-size: 1.35rem;
+}
+
 
 .main-goals{
-    order: 7;
-    margin-top: 1em;
-    background: rgb(255, 255, 255, 0.6);
+    order: 10;
+    margin-top: 10%;
+    background: rgb(220, 208, 210, 0.6);
     height: 3%;
+    margin-right: 10%;
 }
 
 .main-goals__title{
@@ -222,53 +252,57 @@ tr:nth-child(even) td {
     text-decoration-color: black;
 }
 
-.main-algorithm{
-    order: 8;
-    margin-top: 16px;
-    background: rgb(255, 255, 255, 0.6);
-}
-
-.main-algorithm__title{
-    font-size: 1.25em;
-    font-weight: bold;
-    font-family: Jura, serif;
-}
-
-.title_small{
-    font-size: 1.1em;
-}
-
-.main-algorithm__algorithm{
-    font-size: 1.25em;
-}
 
 .main-ascii{
     order: 9;
-    background: rgb(255, 255, 255, 0.6);
+    background: rgb(220, 208, 210, 0.6);
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 10%;
 }
 
 .main-ascii__title{
-    font-size: 1.25em;
+    font-size: 1.6rem;
     font-weight: bold;
     font-family: Jura, serif;
 }
 
 .main-ascii__image{
-
+    font-size: 1.3rem;
+    line-height: 1.3rem;
 }
 
 .footer-contacts{
-    background: rgb(255, 255, 255, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(220, 208, 210, 0.6);
+    width: 100%;
 }
 
 .footer-contacts__title{
-    font-size: 1.25em;
+    font-size: 1.4rem;
     font-weight: bold;
     font-family: Jura, serif;
 }
 
 .footer-contacts__list{
     font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.footer-contacts__element1{
+    order:1;
+}
+
+.footer-contacts__element2{
+    order: 2;
+}
+
+.footer-contacts__element3{
+    order: 3;
 }
 
 .footer-contacts__list-header{
