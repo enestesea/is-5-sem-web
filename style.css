@@ -27,7 +27,7 @@ footer{
 
 .header-title{
     font-size: 1.65em;
-    font-family:"Droid Serif", serif;
+    font-family:Jost, serif;
     font-weight: 700;
     line-height: 1.25em;
     margin-bottom: 3%;
@@ -46,13 +46,15 @@ footer{
     margin-right: 10%;
     margin-left: 7%;
     margin-top: 10%;
+    background: rgb(255, 255, 255, 0.6);
+    height: 1%;
 }
 
 .main-social-network__title{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 16px;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-social-network__list{
@@ -63,9 +65,7 @@ footer{
     order: 2;
     margin-right: 50px;
     margin-top: 100px;
-    background: transparent\9;
     background: rgb(255, 255, 255, 0.6);
-    padding-bottom: 0;
     height: 150px;
 }
 
@@ -73,16 +73,15 @@ footer{
     font-size: 20px;
     font-weight: bold;
     line-height: 24px;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 
 }
 
 .main-my-life__first-story{
-
+    margin-top: 1%;
 }
 
 .main-my-life__second-story{
-    padding-bottom: 0;
 }
 
 .main-my-life__initial{
@@ -105,13 +104,15 @@ footer{
 .main-quote{
     margin-top: 20px;
     order: 6;
+    background: rgb(255, 255, 255, 0.6);
+    height: 1%;
 }
 
 .main-quote__title{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 1.5em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-quote__quote{
@@ -133,13 +134,15 @@ footer{
 .main-aside-image{
     margin-top: 1em;
     order: 7;
+    background: rgb(255, 255, 255, 0.6);
+    height: 1%;
 }
 
 .main-aside-image__title{
     font-size: 1.25em;
     font-weight: bold;
     line-height: 2em;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 * {
@@ -200,12 +203,14 @@ tr:nth-child(even) td {
 .main-goals{
     order: 7;
     margin-top: 1em;
+    background: rgb(255, 255, 255, 0.6);
+    height: 3%;
 }
 
 .main-goals__title{
     font-size: 1.2em;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-goals__list{
@@ -220,12 +225,13 @@ tr:nth-child(even) td {
 .main-algorithm{
     order: 8;
     margin-top: 16px;
+    background: rgb(255, 255, 255, 0.6);
 }
 
 .main-algorithm__title{
     font-size: 1.25em;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .title_small{
@@ -238,12 +244,13 @@ tr:nth-child(even) td {
 
 .main-ascii{
     order: 9;
+    background: rgb(255, 255, 255, 0.6);
 }
 
 .main-ascii__title{
     font-size: 1.25em;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .main-ascii__image{
@@ -251,13 +258,13 @@ tr:nth-child(even) td {
 }
 
 .footer-contacts{
-
+    background: rgb(255, 255, 255, 0.6);
 }
 
 .footer-contacts__title{
     font-size: 1.25em;
     font-weight: bold;
-    font-family: "Book Antiqua", serif;
+    font-family: Jura, serif;
 }
 
 .footer-contacts__list{
@@ -267,4 +274,12 @@ tr:nth-child(even) td {
 .footer-contacts__list-header{
     font-style: oblique;
     font-weight: 400;
+}
+
+@media screen {
+    
+}
+
+@media screen {
+    
 }
