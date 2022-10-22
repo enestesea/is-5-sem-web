@@ -310,10 +310,67 @@ tr:nth-child(even) td {
     font-weight: 400;
 }
 
-@media screen {
-    
+@media screen and (max-width: 1200px) {
+
+    .main-image2{
+        margin-top: 3%;
+    }
+
+    .main-table-waifu{
+        margin-bottom: 1%;
+    }
+
+    .main-aside-image{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 15%;
+    }
+
+    .main-goals{
+        margin-top: 1%;
+    }
+
+    .main-algorithm{
+        margin-top: 1%;
+    }
 }
 
-@media screen {
-    
+@media screen and (max-width: 500px) {
+    .main-image1{
+        width: 50%;
+        height: auto;
+    }
+    .main-image2{
+        width: 30%;
+        height: auto;
+    }
+
+    .main-image3{
+        width: 30%;
+        height: auto;
+    }
+
+    .main-algorithm__title{
+        font-size: 1rem;
+    }
+
+    .title_small{
+        font-size: 0.9rem;
+    }
+
+    .main-ascii__title{
+        font-size: 1rem;
+    }
+
+    .main-ascii__image{
+        font-size: 0.8rem;
+    }
+
+    .main-algorithm__algorithm{
+        font-size: 0.8rem;
+    }
+
+    .main-table-waifu{
+        display: none;
+    }
 }
