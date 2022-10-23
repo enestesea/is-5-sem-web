@@ -335,7 +335,7 @@ tr:nth-child(even) td {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
     .main-image1{
         width: 50%;
         height: auto;
@@ -372,5 +372,9 @@ tr:nth-child(even) td {
 
     .main-table-waifu{
         display: none;
+    }
+
+    .main-aside-image{
+        font-size: 0.85rem;
     }
 }
