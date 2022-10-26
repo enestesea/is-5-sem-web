@@ -24,7 +24,9 @@ main{
 footer{
     display:flex;
     flex-direction: column;
-    margin-top: 5%;
+    position: fixed;
+    margin-top: 41rem;
+    width: 95%;
 }
 
 .header-title{
@@ -265,6 +267,7 @@ tr:nth-child(even) td {
     margin-top: 1%;
     margin-left: 3%;
     margin-right: 10%;
+    margin-bottom: 7%;
     padding: 1%;
 }
 
@@ -395,6 +398,10 @@ tr:nth-child(even) td {
 
     .main-aside-image{
         font-size: 0.85rem;
+    }
+
+    footer{
+        margin-top: 43rem;
     }
 
     .footer-contacts__title{
