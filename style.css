@@ -50,6 +50,7 @@ footer{
     margin-top: 10%;
     background: rgb(220, 208, 210, 0.6);
     height: 1%;
+    padding: 1%;
 }
 
 .main-social-network__title{
@@ -69,6 +70,7 @@ footer{
     margin-top: 7%;
     background: rgb(220, 208, 210, 0.6);
     height: 10%;
+    padding: 1%;
 }
 
 .main-my-life__title{
@@ -110,6 +112,7 @@ footer{
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 15%;
+    padding: 1%;
 }
 
 .main-quote__title{
@@ -195,6 +198,7 @@ tr:nth-child(even) td {
     margin-top: 15%;
     margin-right: 10%;
     margin-left: 10%;
+    padding: 1%;
 }
 
 .main-aside-image__title{
@@ -211,6 +215,7 @@ tr:nth-child(even) td {
     margin-top: 3%;
     margin-right: 10%;
     margin-left: 5%;
+    padding: 1%;
 }
 
 .main-algorithm__title{
@@ -235,6 +240,7 @@ tr:nth-child(even) td {
     background: rgb(220, 208, 210, 0.6);
     height: 3%;
     margin-right: 10%;
+    padding: 1%;
 }
 
 .main-goals__title{
@@ -259,6 +265,7 @@ tr:nth-child(even) td {
     margin-top: 1%;
     margin-left: 3%;
     margin-right: 10%;
+    padding: 1%;
 }
 
 .main-ascii__title{
@@ -277,6 +284,7 @@ tr:nth-child(even) td {
     flex-wrap: wrap;
     background: rgb(220, 208, 210, 0.6);
     width: 100%;
+    padding: 1%;
 }
 
 .footer-contacts__title{
@@ -291,6 +299,7 @@ tr:nth-child(even) td {
     justify-content: space-between;
     margin-top: 1%;
     width: 100%;
+    padding: 0 1%;
 }
 
 .footer-contacts__element1{
@@ -313,7 +322,12 @@ tr:nth-child(even) td {
 @media screen and (max-width: 1200px) {
 
     .main-image2{
-        margin-top: 3%;
+        margin: 3% 20%;
+    }
+
+    .main-image3{
+        margin-right: 20%;
+        margin-left: 20%;
     }
 
     .main-table-waifu{
@@ -324,6 +338,7 @@ tr:nth-child(even) td {
         margin-top: 5%;
         margin-bottom: 5%;
         margin-right: 15%;
+        padding: 1%;
     }
 
     .main-goals{
@@ -332,6 +347,10 @@ tr:nth-child(even) td {
 
     .main-algorithm{
         margin-top: 1%;
+    }
+
+    .footer-contacts__list{
+        flex-direction: column;
     }
 }
 
@@ -376,5 +395,13 @@ tr:nth-child(even) td {
 
     .main-aside-image{
         font-size: 0.85rem;
+    }
+
+    .footer-contacts__title{
+        margin-bottom: 1%;
+    }
+
+    .footer-contacts__list{
+        flex-direction: column;
     }
 }
