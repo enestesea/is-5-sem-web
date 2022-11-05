@@ -8,12 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/starting-window.js"></script>
 </head>
 <body class="page">
 <header>
     <span class="header-title">Сайт разработчика Занилы Дубова</span>
 </header>
 <main>
+    <div class="starting-window">
+        <span class="starting-window__question">Вам есть 18?</span>
+        <button class="starting-window__yes" onclick = eighteen_yes()>Yes</button>
+        <button class="starting-window__no" onclick = eighteen_no()>No</button>
+    </div>
     <img class="main-image1" src="images/danya.jpeg">
     <div class="main-social-network"><br>
         <span class="main-social-network__title">Мое творчество в соц сетях:</span>
