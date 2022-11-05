@@ -1,5 +1,6 @@
 function eighteen_yes(){
     document.getElementsByClassName("starting-window")[0].style.display = "none";
+    document.getElementsByClassName("menu")[0].style.visibility = "visible";
 }
 
 function eighteen_no(){

@@ -24,8 +24,8 @@ main{
 footer{
     display:flex;
     flex-direction: column;
-    position: fixed;
-    margin-top: 43%;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
     width: 95%;
 }
 
@@ -35,6 +35,41 @@ footer{
     font-weight: 700;
     line-height: 1.25em;
     margin-bottom: 3%;
+}
+
+.menu{
+    visibility: hidden;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 101%;
+    height: 12vh;
+    background: rgb(214, 203, 178, 0.6);
+    position: fixed;
+    margin-top: 87vh;
+}
+
+.menu__home{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__hollywood{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__quotes{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
 }
 
 .starting-window{
