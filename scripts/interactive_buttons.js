@@ -1,5 +1,4 @@
 const buttons = document.querySelectorAll('button')
-
 addButtonHandlers(buttons);
 
 function addButtonHandlers(buttons){
