@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <title>Сайт Занилы Дубова</title>
     <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
     <script defer src="scripts/starting-window.js"></script>
     <script defer src="scripts/interactive_buttons.js"></script>
+    <script defer src="scripts/switch_pages.js"></script>
 </head>
 <body class="page">
 <header>
     <span class="header-title">Сайт разработчика Занилы Дубова</span>
     <div class="menu">
-        <button class="menu__home">Home</button>
-        <button class="menu__hollywood">Hollywood</button>
-        <button class="menu__quotes">Quotes</button>
+        <button class="menu__home" onclick="home_page()">Home</button>
+        <button class="menu__hollywood" onclick="hollywood_page()">Hollywood</button>
+        <button class="menu__quotes" onclick="quotes_page()">Quotes</button>
     </div>
 </header>
 <main>
