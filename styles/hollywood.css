@@ -73,8 +73,7 @@ footer{
 
 
 .main__film{
-    width: 50%;
-    height: auto;
+    box-shadow: 0px 0px 20px 20px rgba(255, 33, 162, 0.63);
     margin-top: 10vh;
     margin-bottom: 12vh;
 }
