@@ -395,6 +395,15 @@ tr:nth-child(even) td {
     font-weight: 400;
 }
 
+.footer__page-load-time{
+    align-self: flex-end;
+    font-size: 1.2rem;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    background: rgb(220, 208, 210, 0.6);
+    padding: 1%;
+}
+
 @media screen and (max-width: 1200px) {
 
     .main-image2{
