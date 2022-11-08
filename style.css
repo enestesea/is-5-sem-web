@@ -1,0 +1,168 @@
+.page{
+    background-color: #E3E7FF;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 15px;
+    white-space: normal;
+    letter-spacing: 0.01em;
+    word-spacing: 2px;
+}
+
+.header-title{
+    font-size: 30px;
+    font-family: Jost, serif;
+    font-weight: 700;
+    line-height: 1.25em;
+}
+.main-image{
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5));
+    width: 300px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.main-social-network{
+}
+
+.main-social-network__title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1em;
+    font-family: Jura, serif;
+}
+
+.main-social-network__list{
+
+}
+
+.main-my-life{
+
+}
+
+.main-my-life__title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: Jura, serif;
+}
+
+.main-my-life__first-story{
+    text-indent: 1em;
+}
+
+.main-my-life__second-story{
+    text-indent: 1em;
+}
+
+.main-my-life__initial{
+    font-weight: bold;
+}
+
+.main-my-life__name{
+    font-style: oblique;
+    text-transform: uppercase;
+}
+
+.main-quote{
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.main-quote__title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-family: Jura, serif;
+}
+
+.main-quote__quote{
+    filter: drop-shadow(1px 1px 1px grey)
+}
+
+.main-quote__name{
+    font-style: oblique;
+}
+
+.main-aside-image{
+    margin-top: 16px;
+}
+
+.main-aside-image__title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+    font-family: Jura, serif;
+}
+
+.main-goals{
+    margin-top: 16px;
+}
+
+.main-goals__title{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Jura, serif;
+}
+
+.main-goals__list{
+    line-height: 1.25em;
+}
+
+.main-goals__cross-out{
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
+
+.main-algorithm{
+    margin-top: 16px;
+}
+
+.main-algorithm__title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Jura, serif;
+}
+
+.title_small{
+    font-size: 17px;
+}
+
+.main-algorithm__algorithm{
+    font-size: 15px;
+}
+
+.main-ascii{
+
+}
+
+.main-ascii__title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Jura, serif;
+}
+
+.main-ascii__image{
+
+}
+
+.footer-contacts{
+
+}
+
+.footer-contacts__title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Jura, serif;
+}
+
+.footer-contacts__list{
+    font-size: 17px;
+}
+
+.footer-contacts__list-header{
+    font-style: oblique;
+    font-weight: 400;
+}
+

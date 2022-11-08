@@ -3,61 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Сайт Занилы Дубова</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Jura:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="page">
     <header>
-        <h2>Сайт разработчика Занилы Дубова</h2>
+        <span class="header-title">Сайт разработчика Занилы Дубова</span>
     </header>
     <main>
-        <img src="danya.jpeg">
-        <h3>Мое творчество в соц сетях:</h3>
-        <nav>
-            <ul>
-                <li><a href="https://www.youtube.com/channel/UCW0f4fbRG0fViwShdtNjwLQ/featured"target="_blank">Мой ютуб канал</a></li>
-                <li><a href="https://github.com/kakakak241"target="_blank">Мой гитхаб</a></li>
-            </ul>
-        </nav>
-        <h3>Кратко о моей жизни к 20 годам:</h3>
-        <p>Всем привет, меня зовут Данила Зубов и я как-то получил грант в артеке <br>
-            и потратил его на пятую плойку, а потом продал её на 5к дороже, чем купил.</p>
-        <section><h3>Моя любимая еда:</h3>
-            <p>Сейчас я хочу вам рассказать про мое любимое блюдо<br>
-            Я очень люблю кушать в <em>Бургер кинге</em>. Там есть очень вкусный <b>сет</b>.<br>
-            Когда я его кушаю, я получаю несравнимое удовольствие, которое можно сравнить<br>
-            только лишь с выигранной каткой в доте. Классное комбо для свидания, всем рекоммендую!</p>
-        </section>
-        <blockquote><h3>Моя любимая цитата:</h3>
-            <q>Я хочу в Питер, чтобы было скибидипапа</q><br>
-            <cite>Максим Пезин</cite>
+        <img class="main-image" src="images/danya.jpeg">
+        <div class="main-social-network"><br>
+            <span class="main-social-network__title">Мое творчество в соц сетях:</span>
+            <nav class="main-social-network__list">
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCW0f4fbRG0fViwShdtNjwLQ/featured"target="_blank">Мой ютуб канал</a></li>
+                    <li><a href="https://github.com/kakakak241"target="_blank">Мой гитхаб</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article class="main-my-life">
+            <span class="main-my-life__title">Кратко о моей жизни к 20 годам:</span>
+            <div class="main-my-life__first-story">Всем привет, меня зовут Данила Зубов и я как-то получил грант в артеке <br>
+            и потратил его на пятую плойку, а потом продал её на 5к дороже, чем купил.</div>
+            <div class="main-my-life__second-story">Сейчас я хочу вам рассказать про мое любимое блюдо. Я очень люблю кушать <br>
+            в <span class="main-my-life__name">"бургер кинг"</span>. Там есть очень вкусный <span class="main-my-life__initial">сет</span>.  Когда я его кушаю, я получаю <br>
+            несравнимое удовольствие, которое можно сравнить только лишь с выигранной <br> каткой в доте.
+            Классное комбо для свидания, всем рекоммендую!</div>
+        </article>
+        <blockquote class="main-quote">
+            <span class="main-quote__title">Моя любимая цитата:</span><br>
+            <q class="main-quote__quote">Я хочу в Питер, чтобы было скибидипапа</q> <br>
+            <cite class="main-quote__name">Максим Пезин</cite><br>
         </blockquote>
-        <aside>
-            <a href="bk.jpg"><h4>Свидание в бургер кинге на 6 за 200</h4></a>
+        <aside class="main-aside-image">
+            <a href="images/bk.jpg"><span class="main-aside-image__title">Свидание в бургер кинге на 6 за 200</span></a>
         </aside>
-        <section><h3>Мои цели на жизнь:</h3>
-        <ul>
-            <li>Съездить в японию за девочками</li>
-            <li>Апнуть 10к ммр в доте</li>
-            <li><del>Покушать 6 за 350</del></li>
-        </ul></section>
-        <section><h3>Моя любимый алгоритм:</h3>
-            <h4> бубл-сорт</h4>
-            <pre><code>
+        <section class="main-goals"><span class="main-goals__title">Мои цели на жизнь:</span>
+            <div class="main-goals__list">
+                <ul>
+                    <li>Съездить в Японию за девочками</li>
+                    <li>Апнуть 10к ммр в доте</li>
+                    <li><span class="main-goals__cross-out">Покушать 6 за 350</span></li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-algorithm">
+            <span class="main-algorithm__title">Мой любимый алгоритм:</span><br>
+            <span class="main-algorithm__title title_small"> Бубл-сорт</span>
+            <pre class="main-algorithm__algorithm"><code>
 int n = arr.length;
 int temp = 0;
 for(int i=0; i < n; i++){
-        for(int j=1; j < (n-i); j++){
+    for(int j=1; j < (n-i); j++){
         if(arr[j-1] > arr[j]){
-              //swap elements
-              temp = arr[j-1];
-              arr[j-1] = arr[j];
-              arr[j] = temp;
-              }
+            //swap elements
+            temp = arr[j-1];
+            arr[j-1] = arr[j];
+            arr[j] = temp;
         }
+    }
 }
             </code></pre>
         </section>
-        <section><h3>Моя любимая пикча:</h3>
-        <pre>
+        <section class="main-ascii"><div class="main-ascii__title">Моя любимая пикча:</div>
+        <pre class="main-ascii__image">
 ⠄⠄⠄⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
 ⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
 ⠄⠄⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
@@ -72,15 +83,19 @@ for(int i=0; i < n; i++){
 ⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄
 ⠄⠄⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴
 ⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿
-</pre></section>
+        </pre></section>
     </main>
     <footer>
-        <h3>Контакты</h3>
-        <ul>
-            <li><em>Мой телефон:</em> <a href=”tel:89697038488”>+7(969)703-84-88</a></li>
-            <li><a href="https://vk.com/id393850113"target="_blank">Моя мама</a></li>
-            <li><em>Моя почта:</em> <a href="mailto:danyaarcwarden228@rambler.ru">danyaarcwarden228@rambler.ru</a></li>
-        </ul>
+        <section class="footer-contacts">
+            <span class="footer-contacts__title">Контакты</span>
+            <nav class="footer-contacts__list">
+                <ul>
+                    <li><a href="tel:8 9697 03 84 88"><span class="footer-contacts__list-header">Мой телефон</span></a></li>
+                    <li><a href="https://vk.com/id393850113"target="_blank"><span class="footer-contacts__list-header">Моя мама</span></a></li>
+                    <li><span class="footer-contacts__list-header">Моя почта:</span> danyaarcwarden228@rambler.ru</li>
+                </ul>
+            </nav>
+        </section>
     </footer>
 
 </body>
