@@ -1,4 +1,4 @@
-.page-hollywood{
+.page-constructor{
     display: flex;
     flex-direction: column;
     background: #000 url(../images/hollywood_background.jpg) fixed;
@@ -15,15 +15,6 @@ header{
     justify-content: center;
 }
 
-main{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-footer{
-
-}
 
 .menu{
     z-index: 1;
@@ -78,32 +69,10 @@ footer{
     padding-top: 1%;
 }
 
-.hollywood__header{
+.constructor__header{
     font-family: Jost, serif;
     font-size: 2rem;
     margin-top: 2vh;
-}
-
-.main__poster{
-    width: 35%;
-    height: auto;
-    margin-top: 5vh;
-}
-
-
-.main__film{
-    box-shadow: 0px 0px 20px 20px rgba(255, 33, 162, 0.63);
-    margin-top: 10vh;
-    margin-bottom: 12vh;
-}
-
-.main__description{
-    font-size: 1.4rem;
-    background: rgb(161,228,237, 0.8);
-    width: 50%;
-    height: 30vh;
-    padding: 1%;
-    margin-top: 30vh;
 }
 
 .menu__home:hover {
@@ -140,4 +109,12 @@ footer{
 
 .menu__constructor:active{
     background-color: white;
+}
+
+#constructor__input__groupname{
+
+}
+
+#constructor__input__songname{
+
 }

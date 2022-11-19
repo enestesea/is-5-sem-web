@@ -81,6 +81,16 @@ footer{
     padding-top: 1%;
 }
 
+.menu__constructor{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
 .starting-window{
     position: fixed;
     display: flex;
@@ -455,6 +465,15 @@ tr:nth-child(even) td {
 }
 
 .menu__quotes:active{
+    background-color: white;
+}
+
+.menu__constructor:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__constructor:active{
     background-color: white;
 }
 

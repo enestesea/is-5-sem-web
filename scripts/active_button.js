@@ -12,6 +12,9 @@ window.onload
     if (cur_url === "/quotes.html") {
         button = document.getElementsByClassName("menu__quotes");
     }
+    if (cur_url === "/constructor.html"){
+        button = document.getElementsByClassName("menu__constructor");
+    }
 
     if (button != null) {
         for (let i = 0; i < button.length; i++) {

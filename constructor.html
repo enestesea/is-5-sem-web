@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт Занилы Дубова</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/constructor.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/active_button.js"></script>
+    <script defer src="scripts/construct.js"></script>
+</head>
+<body class="page-constructor">
+    <header>
+        <div class="menu">
+            <a href="index.html" class="menu__home">Home</a>
+            <a href="hollywood.html" class="menu__hollywood">Hollywood</a>
+            <a href="quotes.html" class="menu__quotes">Quotes</a>
+            <a href="constructor.html" class="menu__constructor">Constructor</a>
+        </div>
+        <span class="constructor__header">Конструктор</span>
+    </header>
+    <form class="constructor__form">
+        <label for="constructor__input__groupname">Имя группы</label>
+        <input id="constructor__input__groupname" name="groupname" type="text" size="30" minlength="3" placeholder="BLACKPINK">
+
+        <label for="constructor__input__songname">Название клипа</label>
+        <input id="constructor__input__songname" name="songname" type="text" size="30" minlength="3" placeholder="Kill This Love">
+        <p><input type="submit"></p>
+    </form>
+
+    <div class="constructor__todo">
+
+    </div>
+</body>
+</html>
