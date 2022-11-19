@@ -39,24 +39,33 @@ footer{
 }
 
 .menu__home{
-    height: 6vh;
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .menu__hollywood{
-    height: 6vh;
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .menu__quotes{
-    height: 6vh;
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .hollywood__header{
@@ -85,4 +94,31 @@ footer{
     height: 30vh;
     padding: 1%;
     margin-top: 30vh;
+}
+
+.menu__home:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__home:active {
+    background-color: white;
+}
+
+.menu__hollywood:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__hollywood:active{
+    background-color: white;
+}
+
+.menu__quotes:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__quotes:active{
+    background-color: white;
 }

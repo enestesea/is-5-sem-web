@@ -1,7 +1,7 @@
 window.onload
 {
-    let loc = window.location.href
-    let cur_url = '/' + loc.split('/').pop();
+    const loc = window.location.href
+    const cur_url = '/' + loc.split('/').pop();
     let button;
     if (cur_url === "/index.html") {
         button = document.getElementsByClassName("menu__home");
