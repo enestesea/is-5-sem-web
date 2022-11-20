@@ -6,15 +6,42 @@ let todoArr = [];
 todoInput.addEventListener("submit", function (e){
     e.preventDefault();
     const formData = new FormData(todoInput);
-    let todo = {
+    const todo = {
         groupname: formData.get("groupname"),
-        songname: formData.get("songname")
+        songname: formData.get("songname"),
+        done: false,
+        id: String.fromCharCode(65 + Math.floor(Math.random() * 26)) + Date.now()
     };
     todoArr.push(todo);
-    Store(todoList);
+    todoInput.reset();
+    store(todoList);
 });
 
 
-function Store(listTodo){
+function store(listTodo){
     localStorage.setItem("listTodo", listTodo);
+}
+
+function getFromStorage(){
+    const ref = localStorage.getItem("listTodo");
+    if (ref){
+        displayTodoList(ref);
+    }
+}
+
+function clearStorage(){
+    localStorage.removeItem("listTodo");
+}
+
+getFromStorage();
+
+function displayTodoList(list){
+
+}
+
+function deleteTodo(id){
+    newTodoArr = todoArr.filter(function (todo){
+        return todo.id !== id;
+    });
+    store(newTodoArr);
 }
