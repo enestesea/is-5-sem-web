@@ -17,13 +17,6 @@ todoInput.addEventListener("submit", function (e){
     store(todoArr);
 });
 
-todoList.addEventListener("click", function(event){
-    if (event.classList.contains("delete__button)")){
-        deleteTodo(event.target.parentElement.getAttribute("id"));
-    }
-})
-
-
 function store(todoArr){
     localStorage.setItem("listTodo", JSON.stringify(todoArr));
     displayTodoList(todoArr);
@@ -45,25 +38,30 @@ function displayTodoList(todoArr){
     todoList.innerHTML = '';
     todoArr.forEach(function (todo) {
         const div = document.createElement("div");
+        div.setAttribute("class", "todo-list__item")
         const done = todo.done ? 'checked' : null;
-        // if (todo.done === true){
-        //     div.classList.add(".done__todo");
-        // }
         div.setAttribute("id", todo.id);
         div.innerHTML = `
-            <input type="checkbox" class="checkbox_${todo.id}">
+            <input type="checkbox" class="checkbox ${todo.id}">
             ${todo.groupname} ${todo.songname}
-            <button class="delete__button"">Delete</button>
+            <button class="delete__button">Delete</button>
         `;
         todoList.append(div);
     })
 }
 
 function deleteTodo(id){
-    let newTodoArr = todoArr.filter(function (todo){
+    todoArr = todoArr.filter(function (todo) {
         return todo.id !== id;
     });
-    store(newTodoArr);
+    store(todoArr);
 }
 
 getFromStorage();
+clearStorage();
+todoList.addEventListener('click', (event) => {
+    const isButton = event.target.classList.contains("delete__button");
+    if (isButton){
+        deleteTodo(event.target.parentElement.id);
+    }
+})
