@@ -32,6 +32,8 @@ function getFromStorage(){
 
 function clearStorage(){
     localStorage.removeItem("listTodo");
+    todoArr.splice(0, todoArr.length);
+    displayTodoList(todoArr);
 }
 
 function displayTodoList(todoArr){
@@ -58,7 +60,7 @@ function deleteTodo(id){
 }
 
 getFromStorage();
-clearStorage();
+
 todoList.addEventListener('click', (event) => {
     const isButton = event.target.classList.contains("delete__button");
     if (isButton){
