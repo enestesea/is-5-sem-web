@@ -19,15 +19,15 @@
             <a href="quotes.html" class="menu__quotes">Quotes</a>
             <a href="constructor.html" class="menu__constructor">Constructor</a>
         </div>
-        <span class="constructor__header">Конструктор</span>
+        <span class="constructor__header">Конструктор планов с Данилой</span>
     </header>
     <form class="constructor__form">
-        <label for="constructor__input__groupname">Имя группы</label>
+        <label for="constructor__input__groupname" class="constructor__input__groupname-label">Имя группы:</label>
         <input id="constructor__input__groupname" name="groupname" type="text" size="30" minlength="3" placeholder="BLACKPINK">
 
-        <label for="constructor__input__songname">Название клипа</label>
+        <label for="constructor__input__songname" class="constructor__input__songname-label">Название клипа:</label>
         <input id="constructor__input__songname" name="songname" type="text" size="30" minlength="3" placeholder="Kill This Love">
-        <p><input type="submit"></p>
+        <input type="submit" class="submit__button">
     </form>
     <button class="clear__button" onclick="clearStorage()">DeleteAll</button>
     <div class="constructor__todo">

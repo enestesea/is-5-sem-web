@@ -112,18 +112,69 @@ header{
     background-color: white;
 }
 
-#constructor__input__groupname{
+.constructor__form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+    justify-content: center;
+}
 
+.constructor__input__groupname-label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 1%;
+    height: 3vh;
+}
+
+#constructor__input__groupname{
+    margin-left: 2vw;
+    height: 4vh;
+    margin-top: 1vh;
+}
+
+.constructor__input__songname-label{
+    font-size: 1.4rem;
+    font-weight: bold;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 1%;
+    height: 3vh;
+    margin-left: 10vw;
 }
 
 #constructor__input__songname{
-
+    height: 4vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
 }
 
-.done__todo{
-
+.submit__button{
+    position: absolute;
+    margin-top: 10vh;
+    font-size: 1.4rem;
+    width: 20%;
 }
 
-.undone_todo{
+.clear__button{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 20vh;
+    font-size: 1.3rem;
+}
 
+.constructor__todo{
+    background: rgb(255, 255, 255, 0.5);
+    margin-top: 10vh;
+    width: 40%;
+    padding: 1%;
+    justify-self: center;
+    align-self: center;
+}
+
+.todo-list__item{
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: rgb(255, 255, 255, 0.7);
+    padding: 1%;
 }
