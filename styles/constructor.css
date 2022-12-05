@@ -178,3 +178,9 @@ header{
     background: rgb(255, 255, 255, 0.7);
     padding: 1%;
 }
+
+@media screen and (max-width: 1200px) {
+    .menu{
+        font-size: calc( (100vw - 700px)/(1200 - 480) * (17 - 10) + 10px);
+    }
+}

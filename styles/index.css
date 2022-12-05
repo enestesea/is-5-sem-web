@@ -499,6 +499,10 @@ tr:nth-child(even) td {
         padding: 1%;
     }
 
+    .menu{
+        font-size:  calc( (100vw - 700px)/(1200 - 480) * (17 - 10) + 10px);
+    }
+
     .main-goals{
         margin-top: 1%;
     }
