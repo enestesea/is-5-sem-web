@@ -118,7 +118,7 @@ footer{
     margin-bottom: 50vh;
     background: rgb(186,174,164, 0.7);
     padding: 1%;
-    height: 16vh;
+    height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 130px);;
 }
 
 .starting-window__yes:hover{
@@ -134,7 +134,7 @@ footer{
     margin-bottom: 50vh;
     background: rgb(186,174,164, 0.7);
     padding: 1%;
-    height: 16vh;
+    height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 130px);;
 }
 
 .starting-window__no:hover{
@@ -513,6 +513,20 @@ tr:nth-child(even) td {
 }
 
 @media screen and (max-width: 570px) {
+
+    .starting-window__question{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+    }
+
+    .starting-window__yes{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+        height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 60px);
+    }
+
+    .starting-window__no{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+        height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 60px);
+    }
     .main-image1{
         width: 50%;
         height: auto;
