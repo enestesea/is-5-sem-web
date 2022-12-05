@@ -148,3 +148,7 @@ footer{
         font-size: calc( (100vw - 700px)/(1200 - 480) * (17 - 10) + 10px);
     }
 }
+
+@media screen and (max-width: 900px){
+
+}
