@@ -46,16 +46,14 @@ function clearStorage(){
 function displayTodoList(todoArr){
     todoList.innerHTML = '';
     todoArr.forEach(function (todo) {
-        const div = document.createElement("div");
+        const template = document.querySelector("#template");
+        const item = template.content.cloneNode(true);
+        const item2 = item.querySelector(".todo-list__item");
         const done = todo.done ? "checked" : null;
-        div.setAttribute("class", "todo-list__item");
-        div.setAttribute("id", todo.id);
-        div.innerHTML = `
-            <input type="checkbox" class="checkbox" ${done}>
-            ${todo.groupname} ${todo.songname}
-            <button class="delete__button">Delete</button>
-        `;
-        todoList.append(div);
+        item2.setAttribute("id", todo.id);
+        item.querySelector('input').setAttribute(done, done);
+        item2.querySelector("span").textContent = todo.groupname + " " + todo.songname;
+        todoList.append(item);
     })
 }
 
