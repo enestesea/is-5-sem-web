@@ -1,7 +1,7 @@
 .page-account{
     display: flex;
     flex-direction: column;
-    background: #000 url(../images/twice.jpg) fixed;
+    background: #000 url(../images/account-background.jpg) fixed;
     background-size: 105%;
     font-family: Calibri, serif;
     font-weight: 500;
@@ -25,7 +25,7 @@ header{
     align-content: space-around;
     width: 101%;
     height: 12vh;
-    background: rgb(161,228,237, 0.85);
+    background:rgb(192,192,192, 0.85);
     position: fixed;
     margin-top: 87vh;
 }
@@ -34,7 +34,7 @@ header{
     height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
-    background: rgb(161,228,237, 0.95);
+    background: rgb(169,169,169, 0.95);
     border: 1px solid black;
     text-align: center;
     padding-top: 1%;
@@ -44,7 +44,7 @@ header{
     height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
-    background: rgb(161,228,237, 0.95);
+    background: rgb(169,169,169, 0.95);
     border: 1px solid black;
     text-align: center;
     padding-top: 1%;
@@ -54,7 +54,7 @@ header{
     height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
-    background: rgb(161,228,237, 0.95);
+    background: rgb(169,169,169, 0.95);
     border: 1px solid black;
     text-align: center;
     padding-top: 1%;
@@ -64,7 +64,7 @@ header{
     height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
-    background: rgb(161,228,237, 0.95);
+    background: rgb(169,169,169, 0.95);
     border: 1px solid black;
     text-align: center;
     padding-top: 1%;
@@ -74,7 +74,7 @@ header{
     height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
-    background: rgb(161,228,237, 0.95);
+    background: rgb(169,169,169, 0.95);
     border: 1px solid black;
     text-align: center;
     padding-top: 1%;
@@ -165,4 +165,8 @@ header{
 
 .account_body{
     font-size: 1.1rem;
+}
+
+#failure-template{
+    width: 100%;
 }

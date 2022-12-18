@@ -74,7 +74,7 @@ async function getData(username) {
         .then((data) => {
             user = data;
         });
-    if (user === null){
+    if (user == null || user ===''){
         displayFailureForm();
         return;
     }
@@ -86,12 +86,8 @@ async function authorize(formData) {
     let userName = formData.get("authorize-username");
     let password = formData.get("authorize-password");
     let data = await getData(userName);
-    if (data == null) {
-        displayFailureForm();
-        return;
-    }
-    let instance = checkAuthorize(userName, password);
-    if (instance === true) {
+    let existence = checkAuthorize(userName, password);
+    if (existence === true) {
         display(data);
     }
     else {
