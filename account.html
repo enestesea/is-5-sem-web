@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт Занилы Дубова</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/account.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/active_button.js"></script>
+    <script defer src="scripts/construct.js"></script>
+    <script defer src="scripts/account.js"></script>
+</head>
+<body class="page-account">
+
+    <header class="header">
+        <header>
+            <div class="menu">
+                <a href="index.html" class="menu__index">Home</a>
+                <a href="hollywood.html" class="menu__hollywood">Hollywood</a>
+                <a href="quotes.html" class="menu__quotes">Quotes</a>
+                <a href="constructor.html" class="menu__constructor">Constructor</a>
+                <a href="account.html" class="menu__account">Account</a>
+            </div>
+            <span class="constructor__header">Личный кабинет фанатов Данилы</span>
+        </header>
+    </header>
+
+    <div id="currentShow"></div>
+
+    <template id="loader">
+        <img class="loader__image">
+        <div class="loader__text"></div>
+    </template>
+
+    <template id="template__authorize-form">
+        <form class="authorize-form__form">
+            <label for="authorize-form__username-input" class="authorize-form__username">Username:</label>
+            <input id="authorize-form__username-input" name="authorize-username" type="text" size="30" minlength="3" placeholder="DanilaFan">
+            <label for="authorize-form__password-input" class="authorize-form__password">Password:</label>
+            <input id="authorize-form__password-input" name="authorize-password" type="text" size="30" minlength="5" placeholder="123456a">
+            <input type="submit" class="authorize-form__submit">
+        </form>
+    </template>
+
+    <template id="template__password-form">
+        <form class="password-form__form">
+            <label for="password-form__password">Введите пароль</label>
+            <input id="password-form__password" type="text" name="password" size="30" minlength="5" placeholder="DanilaOneLove">
+            <label for="password-form__confirm-password" class>Подтвердите пароль</label>
+            <input id="password-form__confirm-password" type="text" name="confirm-password" minlength="5" placeholder="DanilaOneLove">
+            <input type="submit" class="password-form__submit">
+        </form>
+    </template>
+
+    <template id="template__registration-form">
+        <label for="registration-form__username" class="registration-form__username"></label>
+        <input id="registration-form__username" name="registration-username" type="text" size="30" minlength="3" placeholder="Danila228">
+        <label for="registration-form__password"></label>
+        <input id="registration-form__password" name="registration-password" type="text" size="30" minlength="5" placeholder="123456a">
+        <input type="submit" class="registration-form__password-confirm">
+    </template>
+
+    <template id="template__account">
+        <div class="account__header">
+            <div class="account__username"></div>
+        </div>
+        <div class="account__body">
+            <div class="account__email"></div>
+            <div class="account__website"></div>
+            <div class="account__phone"></div>
+            <div class="account__company">
+                <div class="company__name"></div>
+                <div class="company__catchphrase"></div>
+                <div class="company__bs"></div>
+            </div>
+        </div>
+    </template>
+
+    <template id="failure-template">
+        <div class="text"></div>
+        <img src="gifs/failure.gif">
+    </template>
+</body>
+</html>

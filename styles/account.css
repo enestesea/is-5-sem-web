@@ -1,0 +1,168 @@
+.page-account{
+    display: flex;
+    flex-direction: column;
+    background: #000 url(../images/twice.jpg) fixed;
+    background-size: 105%;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 1%;
+    white-space: normal;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 101%;
+    height: 12vh;
+    background: rgb(161,228,237, 0.85);
+    position: fixed;
+    margin-top: 87vh;
+}
+
+.menu__index{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(161,228,237, 0.95);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.menu__hollywood{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(161,228,237, 0.95);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.menu__quotes{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(161,228,237, 0.95);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.menu__constructor{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(161,228,237, 0.95);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.menu__account{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(161,228,237, 0.95);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+.constructor__header{
+    font-family: Jost, serif;
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+.menu__index:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__index    :active {
+    background-color: white;
+}
+
+.menu__hollywood:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__hollywood:active{
+    background-color: white;
+}
+
+.menu__quotes:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__quotes:active{
+    background-color: white;
+}
+
+.menu__constructor:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__constructor:active{
+    background-color: white;
+}
+
+.menu__account:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__account:active{
+    background-color: white;
+}
+
+#currentShow{
+    align-self: center;
+    margin-top: 10vh;
+    background: rgb(186,174,164, 0.7);
+    padding: 1%;
+}
+
+.authorize-form__username{
+    font-size: 1.25rem;
+}
+
+#authorize-form__username-input{
+}
+
+.authorize-form__password{
+    font-size: 1.25rem;
+    margin-left: 3vw;
+}
+
+#authorize-form__password-input{
+}
+
+.authorize-form__submit{
+
+}
+
+.account__header{
+    font-size: 1.3rem;
+    margin-bottom: 3vh;
+}
+
+.account_body{
+    font-size: 1.1rem;
+}

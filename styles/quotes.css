@@ -82,6 +82,16 @@ footer{
     padding-top: 1%;
 }
 
+.menu__account{
+    height: 4.5vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
+}
+
 .quotes-header{
     font-family: Jost, serif;
     font-size: 1.75rem;
@@ -195,6 +205,14 @@ footer{
     background-color: white;
 }
 
+.menu__account:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__account:active{
+    background-color: white;
+}
 
 @media screen and (max-width: 1200px) {
     .menu{
