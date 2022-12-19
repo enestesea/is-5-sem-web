@@ -51,25 +51,34 @@ footer{
     margin-top: 87vh;
 }
 
-.menu__home{
-    height: 6vh;
+.menu__index{
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .menu__hollywood{
-    height: 6vh;
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .menu__quotes{
-    height: 6vh;
+    height: 4.5vh;
     width: 8%;
     margin-top: 1.5%;
     background: rgb(186,174,164, 0.7);
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 1%;
 }
 
 .starting-window{
@@ -89,8 +98,8 @@ footer{
 }
 
 .starting-window__question{
-    margin-right: 32%;
-    margin-left: 32%;
+    width: 100%;
+    text-align: center;
     height: 13vh;
     padding: 1%;
 }
@@ -99,14 +108,33 @@ footer{
     margin-bottom: 50vh;
     background: rgb(186,174,164, 0.7);
     padding: 1%;
-    height: 16vh;
+    height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 100px);
+}
+
+
+.starting-window__yes:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.starting-window__yes:active{
+    background-color: white;
 }
 
 .starting-window__no{
     margin-bottom: 50vh;
     background: rgb(186,174,164, 0.7);
     padding: 1%;
-    height: 16vh;
+    height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 100px);
+}
+
+.starting-window__no:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.starting-window__no:active{
+    background-color: white;
 }
 
 .main-image1{
@@ -403,6 +431,33 @@ tr:nth-child(even) td {
     padding: 1%;
 }
 
+.menu__home:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__home:active {
+    background-color: white;
+}
+
+.menu__hollywood:hover {
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__hollywood:active{
+    background-color: white;
+}
+
+.menu__quotes:hover{
+    background-color: rgb(245,229,230);
+    color: grey;
+}
+
+.menu__quotes:active{
+    background-color: white;
+}
+
 @media screen and (max-width: 1200px) {
 
     .page{
@@ -448,6 +503,20 @@ tr:nth-child(even) td {
 }
 
 @media screen and (max-width: 570px) {
+    .starting-window__question{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+    }
+
+    .starting-window__yes{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+        height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 60px);
+    }
+
+    .starting-window__no{
+        font-size: calc( (100vw - 100px)/(570 - 480) * (17 - 8) + 8px);
+        height: calc( (100vh - 100px)/(2000 - 480) * (17 - 8) + 60px);
+    }
+
     .main-image1{
         width: 50%;
         height: auto;

@@ -8,17 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
-    <script defer src="scripts/starting_window.js"></script>
-    <script defer src="scripts/interactive_buttons.js"></script>
-    <script defer src="scripts/switch_pages.js"></script>
-    <script defer src="scripts/active_button.js"></script>
+     <script defer src="scripts/active_button.js"></script>
 </head>
 <body class="page-hollywood">
 <header>
     <div class="menu">
-        <button class="menu__home" onclick="home_page()">Home</button>
-        <button class="menu__hollywood" onclick="hollywood_page()">Hollywood</button>
-        <button class="menu__quotes" onclick="quotes_page()">Quotes</button>
+        <a href="index.html" class="menu__index">Home</a>
+        <a href="hollywood.html" class="menu__hollywood">Hollywood</a>
+        <a href="quotes.html" class="menu__quotes">Quotes</a>
     </div>
     <span class="hollywood__header">Мама, я в Голливуде</span>
 </header>
@@ -35,7 +32,7 @@
             нельзя будет остановить.
         </p>
     </section>
-    <iframe class="main__film" src="https://drive.google.com/file/d/1TUeDtQERlZgtsZqZjstWFPKN2cQv9bTI/preview?autoplay=1" controls></iframe>
+    <iframe class="main__film" src="https://drive.google.com/file/d/1TUeDtQERlZgtsZqZjstWFPKN2cQv9bTI/preview" width="640" height="480" allow="autoplay"></iframe>
 </main>
 
 <footer>
