@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт Занилы Дубова</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Jura:wght@700&display=swap" rel="stylesheet">
+    <script defer src="scripts/starting_window.js"></script>
+    <script defer src="scripts/interactive_buttons.js"></script>
+    <script defer src="scripts/switch_pages.js"></script>
+    <script defer src="scripts/active_button.js"></script>
+    <script src="scripts/load_site.js"></script>
+</head>
+<body class="page">
+<header>
+    <span class="header-title">Сайт разработчика Занилы Дубова</span>
+    <div class="menu">
+        <button class="menu__home" onclick="home_page()">Home</button>
+        <button class="menu__hollywood" onclick="hollywood_page()">Hollywood</button>
+        <button class="menu__quotes" onclick="quotes_page()">Quotes</button>
+    </div>
+</header>
+<main>
+    <div class="starting-window">
+        <span class="starting-window__question">Вам есть 18?</span>
+        <button class="starting-window__yes" onclick = eighteen_yes()>Yes</button>
+        <button class="starting-window__no" onclick = eighteen_no()>No</button>
+    </div>
+    <img class="main-image1" src="images/danya.jpeg">
+    <div class="main-social-network"><br>
+        <span class="main-social-network__title">Мое творчество в соц сетях:</span>
+        <div class="main-social-network__list">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCW0f4fbRG0fViwShdtNjwLQ/featured" target="_blank">Мой ютуб канал</a></li>
+                <li><a href="https://github.com/kakakak241" target="_blank">Мой гитхаб</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-my-life">
+        <span class="main-my-life__title">Кратко о моей жизни к 20 годам:</span>
+        <div class="main-my-life__first-story">Всем привет, меня зовут Данила Зубов и я как-то получил грант в артеке <br>
+            и потратил его на пятую плойку, а потом продал её на 5к дороже, чем купил.</div>
+        <div class="main-my-life__second-story">Сейчас я хочу вам рассказать про мое любимое блюдо.<br>
+            Я очень люблю кушать в <span class="main-my-life__name">Бургер кинге</span>. Там есть очень вкусный <span class="main-my-life__initial">сет</span>.<br>
+            Когда я его кушаю, я получаю несравнимое удовольствие, которое можно сравнить<br>
+            только лишь с выигранной каткой в доте. Классное комбо для свидания, всем рекоммендую!</div>
+    </div>
+    <img class="main-image2" src="images/danya2.jpg">
+    <div class="main-quote">
+        <span class="main-quote__title">Моя любимая цитата:</span><br>
+        <div class="main-quote__quote">Я хочу в Питер, чтобы было скибидипапа</div>
+        <span class="main-quote__name">Максим Пезин</span><br>
+    </div>
+    <img class="main-image3" src="images/danya3.jpg">
+    <div class="main-aside-image">
+        <a href="images/bk.jpg" target="_blank"><span class="main-aside-image__title">Свидание в бургер кинге на 6 за 200</span></a>
+    </div>
+    <table class="main-table-waifu">
+        <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Группа</th>
+            <th>День Рождения</th>
+            <th>Оценка</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Sana</td>
+            <td>TWICE</td>
+            <td>29.12.1996</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td>Jisoo</td>
+            <td>BLACKPINK</td>
+            <td>03.01.1995</td>
+            <td>8.0</td>
+        </tr>
+        <tr>
+            <td>Lisa</td>
+            <td>BLACKPINK</td>
+            <td>27.03.1997</td>
+            <td>8.0</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="main-goals"><span class="main-goals__title">Мои цели на жизнь:</span>
+        <div class="main-goals__list">
+            <ul>
+                <li>Съездить в Японию за девочками</li>
+                <li>Апнуть 10к ммр в доте</li>
+                <li><span class="main-goals__cross-out">Покушать 6 за 350</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-algorithm">
+        <span class="main-algorithm__title">Мой любимый алгоритм:</span><br>
+        <span class="main-algorithm__title title_small"> Бубл-сорт</span>
+        <pre class="main-algorithm__algorithm"><code>
+    int n = arr.length;
+    int temp = 0;
+    for(int i=0; i < n; i++){
+        for(int j=1; j < (n-i); j++){
+            if(arr[j-1] > arr[j]){
+                //swap elements
+                temp = arr[j-1];
+                arr[j-1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+            </code></pre>
+    </div>
+    <div class="main-ascii"><div class="main-ascii__title">Моя любимая пикча:</div>
+        <pre class="main-ascii__image">
+⠄⠄⠄⣾⣿⠿⠿⠶⠿⢿⣿⣿⣿⣿⣦⣤⣄⢀⡅⢠⣾⣛⡉⠄⠄⠄⠸⢀⣿⠄
+⠄⠄⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿⠄
+⠄⠄⢸⣇⠻⣿⣿⣿⣧⣀⢀⣠⡌⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⣿⣿⣿⠄
+⠄⢀⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋⣰
+⠄⣼⣖⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⢇⣿⣿⡷⠶⠶⢿⣿⣿⠇⢀⣤
+⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⣿⣿⡇⣿⣿⣿⣿⣿⣿⣷⣶⣥⣴⣿⡗
+⢀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠄
+⢸⣿⣦⣌⣛⣻⣿⣿⣧⠙⠛⠛⡭⠅⠒⠦⠭⣭⡻⣿⣿⣿⣿⣿⣿⣿⣿⡿⠃⠄
+⠘⣿⣿⣿⣿⣿⣿⣿⣿⡆⠄⠄⠄⠄⠄⠄⠄⠄⠹⠈⢋⣽⣿⣿⣿⣿⣵⣾⠃⠄
+⠄⠘⣿⣿⣿⣿⣿⣿⣿⣿⠄⣴⣿⣶⣄⠄⣴⣶⠄⢀⣾⣿⣿⣿⣿⣿⣿⠃⠄⠄
+⠄⠄⠈⠻⣿⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⠄⣿⣿⡀⣾⣿⣿⣿⣿⣛⠛⠁⠄⠄⠄
+⠄⠄⠄⠄⠈⠛⢿⣿⣿⣿⠁⠞⢿⣿⣿⡄⢿⣿⡇⣸⣿⣿⠿⠛⠁⠄⠄⠄⠄⠄
+⠄⠄⠄⠄⠄⠄⠄⠉⠻⣿⣿⣾⣦⡙⠻⣷⣾⣿⠃⠿⠋⠁⠄⠄⠄⠄⠄⢀⣠⣴
+⣿⣿⣿⣶⣶⣮⣥⣒⠲⢮⣝⡿⣿⣿⡆⣿⡿⠃⠄⠄⠄⠄⠄⠄⠄⣠⣴⣿⣿⣿
+        </pre></div>
+</main>
+<footer>
+    <div class="footer-contacts">
+        <span class="footer-contacts__title">Контакты</span>
+        <div class="footer-contacts__list">
+            <div class="footer-contacts__element1"><span class="footer-contacts__list-header">Мой телефон:</span> 89697038488</div>
+            <div class="footer-contacts__element2"><a href="https://vk.com/id393850113" target="_blank"><span class="footer-contacts__list-header">Моя мама</span></a></div>
+            <div class="footer-contacts__element3"><span class="footer-contacts__list-header">Моя почта:</span> danyaarcwarden228@rambler.ru</div>
+        </div>
+    </div>
+
+    <div class="footer__page-load-time">
+        Время загрузки сайта:
+    </div>
+</footer>
+
+</body>
+</html>

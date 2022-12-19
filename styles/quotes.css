@@ -1,0 +1,142 @@
+.page-quotes{
+    display: flex;
+    flex-direction: column;
+    background: #000 url(../images/quotes_background.jpg) fixed;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 1%;
+    white-space: normal;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+    width: 95%;
+}
+
+.menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 101%;
+    height: 12vh;
+    background: rgb(214, 203, 178, 0.6);
+    position: fixed;
+    margin-top: 87vh;
+}
+
+.menu__home{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__hollywood{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__quotes{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.quotes-header{
+    font-family: Jost, serif;
+    font-size: 1.75rem;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+}
+
+.main-first-quote{
+    background: rgb(214, 203, 178, 0.6);
+    padding: 1%;
+    height: 10vh;
+    margin-top: 7vh;
+}
+
+.main-first-quote__text{
+
+}
+
+.main-first-quote__author{
+
+}
+
+.main-second-quote{
+    background: rgb(214, 203, 178, 0.6);
+    padding: 1%;
+}
+
+.main-second-quote__ftext{
+
+}
+
+.main-second-quote__fade{
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.main-second-quote__stext{
+
+}
+
+.main-second-quote__author{
+
+}
+
+.main-third-quote{
+    background: rgb(214, 203, 178, 0.6);
+    padding: 1%;
+    margin-top: 14vh;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.main-third-quote__text{
+
+}
+
+.main-third-quote__author{
+
+}
+
+.main-fourth-quote{
+    background: rgb(214, 203, 178, 0.6);
+    padding: 1%;
+    height: 12vh;
+    margin-top: 14vh;
+    margin-right: 8%;
+    margin-left: 5%;
+}
+
+.main-fourth-quote__text{
+
+}
+
+.main-fourth-quote__author{
+
+}

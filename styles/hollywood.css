@@ -1,0 +1,89 @@
+.page-hollywood{
+    display: flex;
+    flex-direction: column;
+    background: #000 url(../images/hollywood_background.jpg) fixed;
+    font-family: Calibri, serif;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.25em;
+    padding: 1%;
+    white-space: normal;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+
+}
+
+.menu{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 101%;
+    height: 12vh;
+    background: rgb(161,228,237, 0.85);
+    position: fixed;
+    margin-top: 87vh;
+}
+
+.menu__home{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__hollywood{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.menu__quotes{
+    height: 6vh;
+    width: 8%;
+    margin-top: 1.5%;
+    background: rgb(186,174,164, 0.7);
+}
+
+.hollywood__header{
+    font-family: Jost, serif;
+    font-size: 2rem;
+    margin-top: 2vh;
+}
+
+.main__poster{
+    width: 35%;
+    height: auto;
+    margin-top: 5vh;
+}
+
+
+.main__film{
+    width: 50%;
+    height: auto;
+    margin-top: 10vh;
+    margin-bottom: 12vh;
+}
+
+.main__description{
+    font-size: 1.4rem;
+    background: rgb(161,228,237, 0.8);
+    width: 50%;
+    height: 30vh;
+    padding: 1%;
+    margin-top: 30vh;
+}
