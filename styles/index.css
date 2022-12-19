@@ -153,7 +153,6 @@ footer{
     font-weight: bold;
     line-height: 24px;
     font-family: Jura, serif;
-
 }
 
 .main-my-life__first-story{
@@ -406,6 +405,10 @@ tr:nth-child(even) td {
 
 @media screen and (max-width: 1200px) {
 
+    .page{
+        flex-direction: column;
+    }
+
     .main-image2{
         margin: 3% 20%;
     }
@@ -428,6 +431,7 @@ tr:nth-child(even) td {
 
     .main-goals{
         margin-top: 1%;
+        margin-bottom: 25vh;
     }
 
     .main-algorithm{
@@ -436,6 +440,10 @@ tr:nth-child(even) td {
 
     .footer-contacts__list{
         flex-direction: column;
+    }
+
+    footer{
+        margin-top: 80vh;
     }
 }
 
@@ -483,7 +491,7 @@ tr:nth-child(even) td {
     }
 
     footer{
-        margin-top: 43rem;
+        margin-top: 85vh;
     }
 
     .footer-contacts__title{
